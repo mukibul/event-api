@@ -5,6 +5,8 @@
 *.jar
 *.war
 *.ear
+.project
+.classpath
 *.iml
 .idea/
 data/
