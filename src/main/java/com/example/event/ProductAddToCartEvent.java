@@ -19,13 +19,15 @@ public class ProductAddToCartEvent implements Event {
     public static class Product {
         private Long id;
         private String name;
+        private String price;
 
         public Product(){
 
         }
-        public Product(Long id,String name){
+        public Product(Long id,String name,String price){
             this.id=id;
             this.name=name;
+            this.price=price;
         }
     }
 
